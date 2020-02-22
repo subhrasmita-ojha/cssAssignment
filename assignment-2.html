@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: #444;
+        }
+        section{
+            position: absolute;
+            top: 45%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            border: 1px solid #555;
+            padding:10px;
+            width:60%
+        }
+        div{
+            border: 1px solid #555;
+        }
+        .top{
+            background: #FF9999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding:10px 20px;
+        }
+        .top h1{
+            font-size: 30px;
+            padding: 0px 40px;
+        }
+        .top p{
+            font-size: 25px; 
+        }
+        .divider{
+            display: flex;
+            background: yellow;
+        }
+        .left{
+            width:75%;
+            margin: 5px 10px;
+            background-image: url('./Assignment-2-img-1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 50px;
+        }
+        .right{
+            width:25%;
+            background: #ECECFB;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding:15px 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="top">
+            <h1>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</p>
+        </div>
+        <div class="divider">
+            <div class="left">
+                <h2>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</h2>
+            </div>
+            <div class="right">
+                <img src="./Assignment-2-img-2.png" width="110px" height="110px" alt="logo">
+                <h2>About Me</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</p>
+            </div>
+        </div>
+        
+    </section>
+</body>
+</html>
