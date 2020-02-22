@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            position: absolute;
+            top: 45%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            padding:10px;
+            width:80%;
+            background:#D8DA3D;
+            display: flex;
+            height:80vh;
+        }
+        .left{
+            width: 15%;
+        }
+        .left div{
+            background: white;
+            padding:10px 15px;
+            color:#80007E;
+            margin-top: 10px;;
+        }
+        .left div:nth-child(odd){
+            border-right:20px solid #FF7F00;
+        }
+        .left div:nth-child(even){
+            border-right:20px solid #0000FF;
+        }
+        .right{
+            width: 85%;
+            padding-left: 20px;
+        }
+        .top{
+            color:#80007E;
+            padding-bottom: 20px;
+            border-bottom: 2px dotted #80007E;
+        }
+        .bottom{
+            width:80%;
+        }
+        .box{
+            margin-top: 20px;
+            padding:0px 10px;
+        }
+        .box-1{
+            border: 2px dashed #000;
+        }
+        .box-2{
+            border: 2px dashed #FF7F00;
+            text-align: right;
+            font-style: italic;
+        }.box-3{
+            border: 2px dotted #0000FF;
+            text-align: center;
+            font-weight: bold;
+        }
+        .footer{
+            color: #80007E;
+            margin-top: 40px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="left">
+            <div>w3schools - HTML</div>
+            <div>w3schools - CSS</div>
+            <div>w3schools - JS</div>
+            <div>w3schools - PHP</div>
+        </div>
+        <div class="right">
+            <div class="top">
+                <h1>My first styled page</h1>
+                <p>Welcome to my styled page!</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis totam nesciunt sit amet consectetur adipisicing quos possimus....</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis totam nesciunt sit amet consectetur adipisicing quos possimus.</p>
+            </div>
+            <div class="bottom">
+                <div class="box box-1">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</p>
+                </div>
+                <div class="box box-2">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</p>
+                </div>
+                <div class="box box-3">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typingsetting industry.</p>
+                </div>
+                <div class="footer">
+                    <p>Made 25 January 2018 <br> by myself</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
